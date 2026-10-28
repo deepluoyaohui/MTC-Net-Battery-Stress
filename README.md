@@ -4,7 +4,7 @@
 
 This repository provides a PyTorch implementation of the Multi-modal Temporal-spatial Coupling Network (MTC-Net) for reconstructing two-dimensional stress fields from six input features. The network includes causal dilated convolution blocks, cross-modal attention, spatial positional encoding, and a Transformer-based spatial decoder. Each output comprises **41 × 27 = 1,107** stress values.
 
-The supplied executable is `MTC_Net_Aligned.py`. It covers data loading, preprocessing, model training, held-out-condition evaluation, and export of reconstructed stress fields. The data traversal logic retains alignment between successfully loaded conditions and their metadata.
+The supplied executable is `MTC_Net.py`. It covers data loading, preprocessing, model training, held-out-condition evaluation, and export of reconstructed stress fields. The data traversal logic retains alignment between successfully loaded conditions and their metadata.
 
 ## 2. Software and hardware
 
