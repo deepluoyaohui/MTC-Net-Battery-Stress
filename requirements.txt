@@ -1,0 +1,10 @@
+# MTC-Net supplementary implementation
+# Python 3.11.13
+# PyTorch CUDA 11.8 build; see README for GPU-specific installation guidance.
+torch==2.7.1+cu118
+numpy==2.3.4
+pandas==2.3.0
+scikit-learn==1.7.0
+matplotlib==3.10.3
+tqdm==4.67.1
+openpyxl==3.1.5
